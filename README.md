@@ -1,8 +1,9 @@
 # ATM-Project
 ATM project using Python
-
+-------------------------------------------
 ATM Project
-About
+-------------------------------------------
+About:
 This is a simple ATM project developed using Python.
 Features
 - Deposit
