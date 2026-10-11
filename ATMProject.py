@@ -1,6 +1,6 @@
 #ATMProject.py
 
-#ATMMenu.py <--module name
+#ATMMenu
 def menu():
     print("-"*50)
     print("ATM OPeration / Fund Transfer Flow Application")
@@ -11,13 +11,13 @@ def menu():
     print("\t4.Exit")
     print("-"*50)
 
-# ATMExcept <--module name
+# ATMExcept 
 class DepositError(Exception): pass
 class WithDrawError(Exception): pass
 class InsuffFundError(Exception): pass
 
 
-#ATMOperations.py <--module name
+#ATMOperations
 from ATMExcept import DepositError,WithDrawError,InsuffFundError
 bal=500.0
 def deposit():
@@ -45,7 +45,7 @@ def balenq():
 
 
 
-#ATMOperationsDemo.py <--Main Project
+#ATMOperationsDemo <--Main Project
 from ATMExcept import DepositError,WithDrawError,InsuffFundError
 from ATMMenu import menu
 from ATMOperations import deposit,withdraw,balenq
